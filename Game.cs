@@ -15,7 +15,7 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
-            Window.ClearBackground(0, 0, 0);
+            Window.ClearBackground(58, 105, 61);
             Window.SetSize(800, 600);
         }
 
@@ -24,7 +24,13 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
-
+            //Make player character
+            Draw.SetFillColor(171, 3, 3);
+            //Make Head
+            Draw.Rectangle(340, 480, 50, 40);
+            
+            //Make Player Body
+            Draw.Rectangle(350, 530, 30, 40);
         }
     }
 
