@@ -5,7 +5,7 @@ namespace MohawkGame2D;
 
 public class Tree
 {
-	Vector2 position
+	Vector2 position;
 
 	//Triangle Variables
 
@@ -17,8 +17,8 @@ public class Tree
 
 	public void Update()
 	{
-		Draw.LineSize(0);
+		Draw.SetLineSize(0);
 		Draw.SetFillColor(Color.White);
-		Draw.Triangle(position);
+		Draw.Triangle(200, 300, 250, 300, 200, 350);
 	}
 }
