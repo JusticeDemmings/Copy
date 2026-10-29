@@ -32,6 +32,8 @@ public class Game
     float y4 = 520;
     float y5 = 530;
 
+    Tree[] trees = new Tree[100];
+
     /// <summary>
     ///     Setup runs once before the game loop begins.
     /// </summary>
